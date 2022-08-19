@@ -262,8 +262,6 @@ if (sessionStorage.getItem('id') == null) {
 
     }
 
-
-
     function FormulariomateriaGrupo(id,nombre){
         document.getElementById("nombreProfe").innerHTML = `${nombre}`
         document.getElementById("idP").value = id
